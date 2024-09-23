@@ -1,0 +1,24 @@
+name: twotothree
+channels:
+  - defaults
+dependencies:
+  - python=3.11.*
+  - pip=23.3.*
+  - pip:
+    - numpy~=1.26
+    - jupyterlab~=3.6
+    - Pillow~=10.0
+    - torch~=2.2
+    - pandas~=2.2
+    - open3d~=0.18
+    - ipywidgets~=8.1
+    - pyvista~=0.43
+    - vtk~=9.3
+    - vedo~=2024.5
+    - opencv-python~=4.9
+    - skan~=0.11
+    - matplotlib~=3.9
+#    - skimage~=0.23
+#    - voila~=0.5
+#    - plotly~=4.14
+#    - dash==2.6.1

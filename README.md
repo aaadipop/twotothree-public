@@ -21,6 +21,10 @@ Keywords: Age-related Macular Degeneration, Optical Coherence Tomography
 Angiography, Image Processing, Vessel Segmentation
 
 ### Run the project
-we cannot provide a dataset but you can add yours in `/oct` dir. the dataset should be as described in ...
+we cannot provide a dataset but you can add yours in `/oct` dir and create an empty `/oct/your-sample/out` dir. the dataset should be as described in ...
 
-1. adjust the variables in `functions/`
+1. `conda env create -f environment.yml && conda activate twotothree`
+2. run 
+3. adjust the variables in `functions/variables.py`
+4. re-run :)
+5. `python3 render.py` to see the 3D volume
